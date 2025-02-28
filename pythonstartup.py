@@ -3,8 +3,8 @@ import requests
 import datetime
 
 # Замените на ваши токены
-TG_BOT_TOKEN = "7970600935:AAEa3EH3MdPfMc3FDEFYcmiCUP8xlXhrUeI" # Ваш токен Telegram бота
-OPENWEATHER_TOKEN = "3c40c4a65ae92807fdc86fdceaa3dd07" # Ваш токен OpenWeatherMap
+TG_BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
+OPENWEATHER_TOKEN = "YOUR_OPENWEATHER_TOKEN"
 
 bot = telebot.TeleBot(TG_BOT_TOKEN)
 
